@@ -1,5 +1,5 @@
 {% set name = "napari-lazy-openslide" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-lazy-openslide-{{ version }}.tar.gz
-  sha256: 4776c66e901a63c5e7afd55ada2278063b57c127cceceefab47063945abbd5f9
+  sha256: faf95a770b6a99ccd8c0e04bc6d2431c270258bb8912169e277377e6bc31f4d7
 
 build:
   noarch: python
